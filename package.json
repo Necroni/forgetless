@@ -1,0 +1,23 @@
+{
+  "name": "forgetless",
+  "version": "1.0.0",
+  "description": "Learning community webpage",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/css/main.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./public/css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Necroni/forgetless.git"
+  },
+  "author": "Greg Ley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Necroni/forgetless/issues"
+  },
+  "homepage": "https://github.com/Necroni/forgetless#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}

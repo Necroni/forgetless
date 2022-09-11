@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>ForgetLess</title>
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="relative container mx-auto p-6">
+        <!-- flex for logo and menu -->
+        <div class="flex items-center justify-between">
+            <div class="pt-2">
+                <img src="img/logo.svg" class="h-8" alt="">
+            </div>
+
+            <div class="hidden md:flex space-x-8">
+                <a href="#" class="hover:text-sonicSilver">About</a>
+                <a href="#" class="hover:text-sonicSilver">Pricing</a>
+                <a href="#" class="hover:text-sonicSilver">Careers</a>
+            </div>
+
+            <a href="#" class="hidden text-xl px-6 p-3 pt-2 font-bold items-baseline text-babyPowder bg-spicyGold rounded-md hover:bg-spicyGoldLight md:block">
+                Join
+            </a>
+
+            <!-- menu icon -->
+            <button id="menu-btn" class="block hamburger focus:outline-none md:hidden">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+
+            <!-- mobile menu -->
+            <div class="md:hidden">
+                <div class="hidden absolute flex-col items-center self-end py-6 mt-6 font-bold bg-white sm:w-auto sm:self-center drop-shadow-md" id="menu">
+                    <a href="#">About</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Careers</a>
+                </div>
+            </div>
+        </div> <!-- end flex container-->
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero">
+        <!-- flex -->
+        <div class="container flex flex-col-reverse items-center px-6 mt-10 space-y-0 md:space-y-0 md:flex-row">
+            <!-- left/bottom -->
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+                    Never forget what you learn
+                </h1>
+                <p class="max-w-sm text-center text-babyBlue md:text-left">
+                    It takes a village. ForgetLess is a community solution hidden inside a software package - a simple and sharp way to learn new things and <strong>never forget them</strong>.
+                </p>
+            </div>
+            <!-- right/top -->
+            <div class="md:1/2">
+                <img src="https://placekitten.com/g/400/500" alt="">
+            </div>
+        </div> <!-- end flex container-->
+    </section> <!-- end hero-->
+
+</body>
+</html>
